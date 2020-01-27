@@ -1,0 +1,34 @@
+{
+    "name": "desmx/sds-php",
+    "type": "library",
+	"description": "A Succinct Trie for PHP",
+    "license": "Unlicense",
+	"keywords": [
+        "trie",
+        "succinct",
+        "data structure",
+        "succinct data structure",
+    ],
+    "authors": [
+        {
+            "name": "Sergey Gondrya",
+            "email": "descode@gondrya.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+    },
+    "autoload": {
+        "psr-4": {
+            "Sds\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sds\\Tests\\": "test/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
